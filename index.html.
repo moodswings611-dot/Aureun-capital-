@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aureum Capital</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#fff;font-family:Arial,sans-serif}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333}
+.logo{color:#d6ad55;font-size:22px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-left:15px;font-size:13px}
+.hero{text-align:center;padding:90px 20px}
+h1{font-size:42px;margin-bottom:15px}
+.gold{color:#d6ad55}
+p{color:#bbb;line-height:1.7}
+.btn{display:inline-block;background:#d6ad55;color:#111;padding:14px 25px;text-decoration:none;border-radius:5px;font-weight:bold;margin-top:15px}
+section{padding:45px 7%;text-align:center}
+.cards{display:flex;flex-wrap:wrap;gap:18px;justify-content:center}
+.card{background:#171717;border:1px solid #393023;border-radius:10px;padding:25px;width:220px}
+.card h3{color:#d6ad55}
+footer{text-align:center;padding:25px;color:#888;border-top:1px solid #333;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AUREUM CAPITAL</div>
+<nav><a href="#about">About</a><a href="#markets">Markets</a></nav>
+</header>
+
+<div class="hero">
+<p class="gold">A SMARTER WAY TO EXPLORE INVESTING</p>
+<h1>Build Your Financial<br><span class="gold">Knowledge & Future.</span></h1>
+<p>Explore financial markets, learn about investment opportunities and make informed decisions.</p>
+<a class="btn" href="#markets">Explore Markets</a>
+</div>
+
+<section id="about">
+<h2>Welcome to <span class="gold">Aureum Capital</span></h2>
+<p>Our goal is to make financial information easier to understand and help people explore different markets.</p>
+</section>
+
+<section id="markets">
+<h2>Explore <span class="gold">Markets</span></h2>
+<div class="cards">
+<div class="card"><h3>Stocks</h3><p>Learn about company shares and stock markets.</p></div>
+<div class="card"><h3>Cryptocurrency</h3><p>Explore digital assets and blockchain technology.</p></div>
+<div class="card"><h3>Forex</h3><p>Understand currency markets and exchange rates.</p></div>
+<div class="card"><h3>Commodities</h3><p>Discover markets such as gold and other resources.</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="gold">Invest with Knowledge</h2>
+<p>All investments involve risk. Returns are not guaranteed. This website is currently an informational demonstration. Deposits and investments are not enabled.</p>
+</section>
+
+<footer>© 2026 Aureum Capital. Educational demonstration only.</footer>
+</body>
+</html>
